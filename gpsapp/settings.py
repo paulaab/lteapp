@@ -25,7 +25,7 @@ SECRET_KEY = '!7hvpqshd--+w%@ct*xq_3h-ay66-7i+67etv!-*59y#zcn&77'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['innogarage.pythonanywhere.com']
+ALLOWED_HOSTS = ['innogarage.pythonanywhere.com', 'localhost']
 
 
 # Application definition
