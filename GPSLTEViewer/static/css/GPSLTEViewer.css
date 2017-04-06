@@ -1,7 +1,4 @@
-.mybody {
-    padding-left: 10px;
 
-}
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: whitesmoke;
     font-family: 'Baloo Chettan', cursive;
@@ -18,20 +15,15 @@
     /*background: -moz-linear-gradient(lightsteelblue, steelblue); /* For Firefox 3.6 to 15 */
     background-color: #808ea1 ;
     /*background: linear-gradient(#a0b2c9, #808ea1); /* Standard syntax */
-
-}
-.map {
-    margin: auto;
-    box-shadow: 10px 10px 5px grey;
-
 }
 
-body {
-    background-image: url("../images/paper.png");
-}
-
-.footer {
+.page-body {
     padding-left: 10px;
+
+}
+.page-footer {
+    padding-left: 10px;
+    padding-top: 20px;
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
@@ -42,6 +34,17 @@ body {
     -moz-column-rule: 1px solid lightblue; /* Firefox */
     column-rule: 1px solid lightblue;
 }
+
+.map {
+    margin: auto;
+    box-shadow: 10px 10px 5px grey;
+
+}
+
+body {
+    background-image: url("../images/paper.png");
+}
+
 h2 {
         font-family: 'Baloo Chettan', cursive;
     }

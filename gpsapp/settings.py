@@ -121,3 +121,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
+
+#http://stackoverflow.com/questions/5871730/need-a-minimal-django-file-upload-example
+#https://github.com/axelpale/minimal-django-file-upload-example/tree/master/src/for_django_1-9/myproject/myproject/myapp
